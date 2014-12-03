@@ -6,25 +6,16 @@ body {
 	background-color: red;
 	font-family: Arial;
 	font-size: 30px;
-	margin-left:auto;
-	margin-right:auto;
 	text-align: center;
-	width: 100%;
 }
 
 .navigation {
-	list-style-type: none;	
+	list-style-type: none;
+	margin: 0;	
 }
+
 
 .paragraph {
-	background-color: white;
-	margin-right: auto;
-	margin-left: auto; 
-	opacity: 80%;
-	width: 60%;
-}
-
-#content {
 	background-color: white;
 	margin-right: auto;
 	margin-left: auto; 
@@ -40,6 +31,16 @@ li {
 iframe {
 	width: 30%;
 	height: 40%;
+	vertical-align: text-bottom;
+
+}
+
+h1 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
 }
 	
 a:link {
