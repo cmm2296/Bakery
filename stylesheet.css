@@ -10,8 +10,9 @@ body {
 }
 
 .navigation {
+	font-family: 'Pacifico';
 	list-style-type: none;
-	margin: 0;	
+	padding-left: 0;
 }
 
 
@@ -25,26 +26,42 @@ body {
 
 li {
 	display: inline-block;
-	padding: 20px;
+	padding: 15px;
 }
 
 iframe {
-	width: 30%;
+	display: block;
 	height: 40%;
-	vertical-align: text-bottom;
-
+	margin: 0 auto;
+    width: 30%;
 }
 
 h1 {
-	margin: 0;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 p {
-	margin: 0;
+	padding: 25px;
+}
+
+#menu {
+	border: 0px solid;
+	border-radius: 25px;
+	box-shadow: 10px 10px 5px #888888;
+
+}
+
+#content {
+	border: 0px solid;
+	border-radius: 25px;
+	height: 30%;
+	min-height: 400px;
+	margin-top: 20px;
 }
 	
 a:link {
-	color: #E8670C;
+	color: #white;
 	text-decoration: none;
 } 
 
@@ -62,3 +79,4 @@ a:active {
 	color: #E8670C;
 	text-decoration: none;
  }
+
